@@ -173,7 +173,7 @@ console.log(materiaEscolar)
 
 
 
-// 9º metodo unshift
+// 8º metodo unshift
 // Adiciona elementos ao inicio do array
 
 // Exemplo 1
@@ -189,3 +189,26 @@ raçaDeCachorro.unshift("Husky siberiano");
 
 console.log(raçaDeCachorro)
 // ["Husky siberiano", "Poodle", "Lhasa Apso", "golden", "Spitz Alemão]
+
+
+
+
+
+
+
+// 8º  metodo slice
+//  Percorre o array para selecionar a faixa de valores determinada por parâmetro
+//  Quando utilizamos o numero negativo no metodo array, os elemento são contados no a partir final do array
+
+// Exemplo 1
+let familia = ["mãe", "pai", "irmão", "tia", "avó", "avô", "prima"];
+
+console.log(familia.slice(2, 4));
+//[ 'irmão', 'tia' ]
+
+
+// Exemplo 2
+let frutas = ["ameixa", "mornago", "maçã", "manga", "pessego"];
+
+console.log(frutas.slice(-3))
+//[ 'maçã', 'manga', 'pessego' ]
