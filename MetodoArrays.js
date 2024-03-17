@@ -149,3 +149,43 @@ console.log(aplicativo)
 
 
 
+// 7º metodo shift
+// Remove o primeiro elemento do array
+
+//Exemplo 1
+let sagaDeLivros = ["jogos vorazes", "Harry Potter", "Percy Jackson", "A rainha vermelha"];
+let removeFirstElement = sagaDeLivros.shift();
+
+console.log(sagaDeLivros);
+// [ 'Harry Potter', 'Percy Jackson', 'A rainha vermelha' ]
+
+
+// exemplo 2
+let materiaEscolar = ["matematica","fisica", "quimica", "biologia","historia"];
+let removeFirstElement1 = materiaEscolar.shift();
+
+console.log(materiaEscolar)
+// [ 'fisica', 'quimica', 'biologia', 'historia' ]
+
+
+
+
+
+
+
+// 9º metodo unshift
+// Adiciona elementos ao inicio do array
+
+// Exemplo 1
+let chocolates = ["bis", "kit kat", "ouro branco"];
+chocolates.unshift("hersheys")
+
+console.log(chocolate)
+// ["hersheys", "bis", "kit kat", "ouro branco"]
+
+// Exemplo 2
+let raçaDeCachorro = ["Poodle", "Lhasa Apso", "golden", "Spitz Alemão",];
+raçaDeCachorro.unshift("Husky siberiano");
+
+console.log(raçaDeCachorro)
+// ["Husky siberiano", "Poodle", "Lhasa Apso", "golden", "Spitz Alemão]
