@@ -236,3 +236,31 @@ let age = ["nome:Maria Eduarda", "Age:16"];
 
 console.log(age.every(I => I > 18))
 // false
+
+
+
+
+
+
+
+// Metodo Splice 
+// altera o conteúdo de um array
+// removendo ou substituindo elementos existentes e adicionando novos elementos no array
+// colocamos esses numeros para informar:
+// a posição que vamos remover e a quantidade de elemntos que queremos remover
+
+// Exemplo 1
+let refrigerante = ['fanta uva', 'coca cola', 'guarana', 'sprite', 'H2O'];
+refrigerante.splice(3, 1, "guarana jesus");
+
+console.log(refrigerante);
+//[ 'fanta uva', 'coca cola', 'guarana', 'guarana jesus', 'H2O' ]
+
+
+// Exemplo 2
+let objetos = ['abajur', 'almofada', 'escada', 'dado', 'capa', 'mascara'];
+objetos.splice(2, 1, "sino");
+
+
+console.log(objetos);
+//[ 'abajur', 'almofada', 'sino', 'dado', 'capa', 'mascara' ]
