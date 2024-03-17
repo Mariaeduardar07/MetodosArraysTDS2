@@ -68,3 +68,28 @@ let solução = animal.join("-");
 
 console.log(solução);
 // macaco-cobra-baleia-gamba-cavalo-cachorro
+
+
+
+
+
+
+
+// 5º método reverse
+// o metodo reverse inverte os elemntos de um array
+
+// Exemplo 1 
+let anosDaCopa = ["2022", "2018", "2014", "2010", "2006", "2002"];
+let anosDaCopainvertido = anosDaCopa.reverse();
+
+console.log(anosDaCopa)
+// [ '2002', '2006', '2010', '2014', '2018', '2022' ]
+
+
+// Exemplo 2
+
+let numerosDescrecentes = ["20", "26", "28", "35", "42"];
+let numerosDecrecentesInvertido = numerosDescrecentes.reverse()
+
+console.log(numerosDescrecentes)
+// [ '42', '35', '28', '26', '20' ]
