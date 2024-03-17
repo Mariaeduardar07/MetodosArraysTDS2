@@ -42,3 +42,29 @@ let listaDeMercado3 = listaDeMercado1.concat(listaDeMercado2);
 
 console.log(listaDeMercado3)
 //['farinha', 'arroz', 'feijão', 'detergente', 'pão', 'bolacha', 'chá', 'café']
+
+
+
+
+
+
+
+
+// 3º  método join()
+// Permite unir os elementos de um array em uma única string.
+
+
+// Exemplo 1
+let bolo = ["milho", "chocolate", "morango", "baunilha", "cenoura"];
+let resultado = bolo.join("/");
+
+console.log(resultado);
+// milho/chocolate/morango/baunilha/cenoura
+
+
+// Exemplo 2
+let animal = ["macaco", "cobra", "baleia", "gamba", "cavalo", "cachorro"];
+let solução = animal.join("-");
+
+console.log(solução);
+// macaco-cobra-baleia-gamba-cavalo-cachorro
