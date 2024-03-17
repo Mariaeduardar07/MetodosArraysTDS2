@@ -75,7 +75,7 @@ console.log(solução);
 
 
 
-// 5º método reverse
+// 4º método reverse
 // o metodo reverse inverte os elemntos de um array
 
 // Exemplo 1 
@@ -93,3 +93,27 @@ let numerosDecrecentesInvertido = numerosDescrecentes.reverse()
 
 console.log(numerosDescrecentes)
 // [ '42', '35', '28', '26', '20' ]
+
+
+
+
+
+
+
+// 6º metodo sort
+// Ordena os elementos do próprio array e retorna o array
+
+// Exemplo 1
+let sorvete = ["morango", "avelã", "chocolate", "baunulha", "flocos"];
+let resultadoDoSorvete = sorvete.sort();
+
+console.log(resultadoDoSorvete)
+// [ 'avelã', 'baunulha', 'chocolate', 'flocos', 'morango' ]
+
+
+// Exemplo 2
+let marca = ["nike", "adidas", "chanel", "balenciaga", "louis vitton"];
+let resultadoDeMarca = marca.sort();
+
+console.log(resultadoDeMarca)
+// [ 'adidas', 'balenciaga', 'chanel', 'louis vitton', 'nike' ]
