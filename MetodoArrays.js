@@ -196,7 +196,7 @@ console.log(raçaDeCachorro)
 
 
 
-// 8º  metodo slice
+// 9º  metodo slice
 //  Percorre o array para selecionar a faixa de valores determinada por parâmetro
 //  Quando utilizamos o numero negativo no metodo array, os elemento são contados no a partir final do array
 
@@ -212,3 +212,27 @@ let frutas = ["ameixa", "mornago", "maçã", "manga", "pessego"];
 
 console.log(frutas.slice(-3))
 //[ 'maçã', 'manga', 'pessego' ]
+
+
+
+
+
+
+
+
+// 10º metodo every
+// O metodo every usamos para testarmos se todos os elementos do Array passam em uma condição. 
+// Passamos uma função que retorna true ou false 
+// Se todos os retornos forem true , significa que todos os elementos passaram no teste
+
+// Exemplo 1 
+let number = [16, 11, 9, 3];
+
+//console.log(number.every(N => N > 18))
+// false
+
+// Exemplo 2
+let age = ["nome:Maria Eduarda", "Age:16"];
+
+console.log(age.every(I => I > 18))
+// false
