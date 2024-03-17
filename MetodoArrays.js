@@ -100,7 +100,7 @@ console.log(numerosDescrecentes)
 
 
 
-// 6º metodo sort
+// 5º metodo sort
 // Ordena os elementos do próprio array e retorna o array
 
 // Exemplo 1
