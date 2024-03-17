@@ -117,3 +117,35 @@ let resultadoDeMarca = marca.sort();
 
 console.log(resultadoDeMarca)
 // [ 'adidas', 'balenciaga', 'chanel', 'louis vitton', 'nike' ]
+
+
+
+
+
+
+
+// 6º metodo find
+// Usaremos o metodo find quando precisamos encontrar um elemento específico dentro de um Array.
+
+// Exemplo 1
+let acessorios = ["chapeu", "brinco", "colar", "luva", "relogio", "oculos"];
+let acessorio = acessorios.find(A => A.startsWith("c"));
+
+console.log(acessorio)
+// chapeu
+
+
+// Exemplo 2
+let aplicativos = ["instagram", "twitter", "skoob", "whatsapp", "Kindle", "facebook", "snapchat"];
+
+let aplicativo = aplicativos.find(A => A.startsWith("s"));
+
+console.log(aplicativo)
+// skoob
+
+
+
+
+
+
+
